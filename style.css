@@ -1,0 +1,120 @@
+.hero-section {
+    background-color: #74C69D;
+    padding: 100px 0;
+    text-align: center;
+
+}
+.nav-link{
+    color: white !important;
+
+}
+.hero-section .btn-primary{
+    background-color: #FFFFFF !important;
+    color: black !important;
+    padding: 5px 30px;
+    border-color: #FFFFFF;
+}
+.hero-head {
+    float: left;
+
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero-section p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.partners {
+    padding: 100px 0;
+}
+.partners .col{
+    margin:30px 0px;
+}
+.partners  p:first-child{
+    color: #74C69D;
+    
+font-family: Work Sans;
+
+}
+
+.feature-section  {
+    margin-top: 30px;
+}
+
+.feature-section h2 {
+    margin-bottom: 30px;
+}
+.feature-section p {
+    margin-bottom: 30px;
+}
+
+
+
+footer {
+    background-color: #74C69D;
+
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+footer .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+  .footer-icons a {
+    color: white !important;
+    font-size: 16px;
+    padding: 10px;
+    transition: all .5s ease;
+  }
+  
+  .footer-icons a:hover {
+    color: white;
+  }
+
+.custom-card-shadow {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.custom-card-shadow img {
+    align-self: center;
+}
+
+.img-fluid {
+    min-width: 300px;
+}
+
+.card-deck {
+    display: flex;
+    justify-content: center;
+
+}
+.btn-black{
+    background-color: black;
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+    .card-deck {
+        display: block !important;
+
+    }
+
+    .card-item-custom {
+        display: flex;
+        justify-content: center;
+
+    }
+    .row-reverse {
+        flex-direction: column-reverse; /* Reverses the order on smaller screens */
+    }
+    footer .container{
+        display: block;
+    }
+}
